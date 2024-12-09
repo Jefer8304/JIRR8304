@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+    LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/petragarm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+<TextView
+    android:id="@+id/nombre_mascota"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<!-- Iconos de hueso para el rating -->
+<ImageView
+    android:id="@+id/hueso_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/hueso_blanco" />
+
+<ImageView
+    android:id="@+id/hueso_2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/hueso_blanco" />
+
+<ImageView
+    android:id="@+id/hueso_3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/hueso_blanco" />
+
+<ImageView
+    android:id="@+id/hueso_4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/hueso_blanco" />
+
+<ImageView
+    android:id="@+id/hueso_5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/hueso_blanco" />
+</LinearLayout>
+
+
+    </LinearLayout>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+</LinearLayout>
